@@ -14,3 +14,4 @@ gulp build
 
 ## How does it look like?
 
+![VS Code inspired theme for Inkdrop](https://github.com/hyphone/inkdrop-theme-vscode-dark-ui/raw/master/screenshot.png)
