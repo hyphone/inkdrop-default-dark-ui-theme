@@ -11,8 +11,8 @@
 @labelDistance: 1.85714em; /* 26px @ 14/em */
 
 /* Checkbox */
-@checkboxBackground: rgba(0, 0, 0, 0.2);
-@checkboxBorder: 1px solid @solidBorderColor;
+@checkboxBackground: @inputBackground;
+@checkboxBorder: 1px solid @inputBackground;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
   border @defaultDuration @defaultEasing,
@@ -42,26 +42,26 @@
 @labelHoverColor: @hoveredTextColor;
 
 /* Pressed */
-@checkboxPressedBackground: @offWhite;
+@checkboxPressedBackground: @gray-lighter;
 @checkboxPressedBorderColor: @selectedBorderColor;
 @checkboxPressedColor: @selectedTextColor;
 @labelPressedColor: @selectedTextColor;
 
 /* Focus */
-@checkboxFocusBackground: @white;
+@checkboxFocusBackground: @gray-dark;
 @checkboxFocusBorderColor: @focusedFormMutedBorderColor;
 @checkboxFocusCheckColor: @selectedTextColor;
 @labelFocusColor: @selectedTextColor;
 
 /* Active */
 @labelActiveColor: @selectedTextColor;
-@checkboxActiveBackground: rgba(0, 0, 0, 0.2);
+@checkboxActiveBackground: @blue;
 @checkboxActiveBorderColor: @selectedBorderColor;
 @checkboxActiveCheckColor: @selectedTextColor;
 @checkboxActiveCheckOpacity: 1;
 
 /* Active Focus */
-@checkboxActiveFocusBackground: @white;
+@checkboxActiveFocusBackground: @gray-dark;
 @checkboxActiveFocusBorderColor: @checkboxFocusBorderColor;
 @checkboxActiveFocusCheckColor: @selectedTextColor;
 
@@ -103,7 +103,7 @@
 @radioActiveFocusBulletColor: @checkboxActiveFocusCheckColor;
 
 /* Slider & Toggle Handle */
-@handleBackground: @white @subtleGradient;
+@handleBackground: @gray-dark @subtleGradient;
 @handleBoxShadow:
   @subtleShadow,
   0px 0px 0px 1px @borderColor inset
@@ -179,7 +179,7 @@
 @toggleOffHandleBoxShadow: @handleBoxShadow;
 
 @toggleOnLabelColor: @selectedTextColor;
-@toggleOnLaneColor: @primaryColor;
+@toggleOnLaneColor: @blue;
 
 @toggleOnHandleBoxShadow: @handleBoxShadow;
 

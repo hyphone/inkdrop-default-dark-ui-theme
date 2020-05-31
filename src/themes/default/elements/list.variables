@@ -190,7 +190,7 @@
 /* Divided */
 @dividedBorderWidth: 1px;
 @dividedBorder: @dividedBorderWidth solid @borderColor;
-@dividedInvertedBorderColor: @whiteBorderColor;
+@dividedInvertedBorderColor: @gray-darkBorderColor;
 @dividedChildListBorder: none;
 @dividedChildItemBorder: none;
 
@@ -201,7 +201,7 @@
 /* Divided */
 @celledBorderWidth: 1px;
 @celledBorder: @celledBorderWidth solid @borderColor;
-@celledInvertedBorder: @dividedBorderWidth solid @whiteBorderColor;
+@celledInvertedBorder: @dividedBorderWidth solid @gray-darkBorderColor;
 @celledHorizontalPadding: 0.5em;
 @celledChildListBorder: none;
 @celledChildItemBorder: none;

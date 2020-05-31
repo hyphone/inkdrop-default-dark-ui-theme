@@ -103,7 +103,7 @@
 --------------------*/
 
 /* Basic */
-@basicBackground: none @white;
+@basicBackground: none @gray-dark;
 @basicBorderWidth: 1px;
 @basicBorder: @basicBorderWidth solid @borderColor;
 @basicColor: @textColor;
@@ -115,7 +115,7 @@
 @basicHoverBoxShadow: @basicBoxShadow;
 
 /* Tag */
-@tagCircleColor: @white;
+@tagCircleColor: @gray-dark;
 @tagCircleSize: 0.5em;
 @tagHorizontalPadding: 1.5em;
 @tagCircleBoxShadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
@@ -188,7 +188,7 @@
 @pinkRibbonShadow: darken(@pink, 10);
 @brownRibbonShadow: darken(@brown, 10);
 @greyRibbonShadow: darken(@grey, 10);
-@blackRibbonShadow: darken(@white, 10);
+@blackRibbonShadow: darken(@gray-dark, 10);
 
 /* Attached */
 @attachedSegmentPadding: 2rem;

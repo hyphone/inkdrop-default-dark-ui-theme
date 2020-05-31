@@ -12,7 +12,7 @@
 ;
 @borderRadius: @defaultBorderRadius;
 
-@raisedShadow: 0px 2px 3px 0px @borderColor;
+@raisedShadow: @floatingShadow;
 
 /*-------------------
        Content
@@ -26,13 +26,13 @@
 @textTransition: none;
 
 /* Menu */
-@menuBackground: @white;
+@menuBackground: @gray-dark;
 @menuMargin: 0em;
 @menuPadding: 0em 0em;
 @menuTop: 100%;
 @menuTextAlign: left;
 
-@inlineMenuBackground: fade(@white, 70%);
+@inlineMenuBackground: fade(@gray-dark, 70%);
 
 @menuBorderWidth: 1px;
 @menuBorderColor: @borderColor;
@@ -367,7 +367,7 @@
 @pointingArrowOffset: -(@pointingArrowSize / 2);
 @pointingArrowDistanceFromEdge: 1em;
 
-@pointingArrowBackground: @white;
+@pointingArrowBackground: @gray-dark;
 @pointingArrowZIndex: 2;
 @pointingArrowBoxShadow: -@menuBorderWidth -@menuBorderWidth 0px 0px @menuBorderColor;
 @pointingArrowSize: @relative7px;

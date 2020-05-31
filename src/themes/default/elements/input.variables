@@ -97,5 +97,5 @@
 
 /* Inverted */
 @transparentInvertedPlaceholderColor: @invertedUnselectedTextColor;
-@transparentInvertedColor: @white;
+@transparentInvertedColor: @gray-dark;
 

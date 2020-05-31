@@ -6,7 +6,7 @@
 @overflow: hidden;
 
 @testBackground: @lightBlack;
-@testColor: @white;
+@testColor: @gray-dark;
 @testFontWeight: @bold;
 @testText: 'Ad';
 @testFontSize: @relativeMedium;

@@ -43,7 +43,8 @@
    for explanation of @px variables
 */
 @relativeBorderRadius: @relative4px;
-@absoluteBorderRadius: @4px;
+/* @absoluteBorderRadius: @4px; */
+@absoluteBorderRadius: none;
 
 @defaultBorderRadius: @absoluteBorderRadius;
 
@@ -75,7 +76,7 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : @gray-light;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
@@ -93,10 +94,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: @lightBlue;
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: @lightBlue;
 
 /*-------------------
         Sizes
@@ -121,11 +122,12 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : @gray-dark;
+@pageBackgroundLight : @gray-light;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : #CCCCCC;
 
 /*-------------------
       Paragraph
@@ -190,7 +192,7 @@
 @loaderLineColor         : @grey;
 
 @invertedLoaderFillColor : rgba(255, 255, 255, 0.15);
-@invertedLoaderLineColor : @white;
+@invertedLoaderLineColor : @gray-dark;
 
 /*-------------------
         Grid
@@ -226,7 +228,7 @@
 @olive            : #B5CC18;
 @green            : #21BA45;
 @teal             : #00B5AD;
-@blue             : #2185D0;
+@blue             : #0E639C;
 @violet           : #6435C9;
 @purple           : #A333C8;
 @pink             : #E03997;
@@ -236,12 +238,12 @@
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
-@lightOrange      : #FF851B;
+@lightOrange      : #D7BA7D;
 @lightYellow      : #FFE21F;
 @lightOlive       : #D9E778;
 @lightGreen       : #2ECC40;
 @lightTeal        : #6DFFFF;
-@lightBlue        : #54C8FF;
+@lightBlue        : #569CD6;
 @lightViolet      : #A291FB;
 @lightPurple      : #DC73FF;
 @lightPink        : #FF8EDF;
@@ -250,11 +252,12 @@
 @lightBlack       : #545454;
 
 /*---   Neutrals  ---*/
-@fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
-@darkWhite        : #4B5257;
-@midWhite         : #666E74;
-@white            : #2E3235;
+@black        : #000000;
+@gray-lighter         : #969696;
+@gray-light-hover: #444444;
+@gray-light        : #333333;
+@gray-medium         : #252526;
+@gray-dark            : #1E1E1E;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -330,11 +333,10 @@
 
 /* Differentiating Layers */
 @subtleShadow:
-  0px 1px 2px 0 @borderColor
+  0 2px 5px rgba(0,0,0,0.35)
 ;
 @floatingShadow:
-  0px 2px 4px 0px rgba(34, 36, 38, 0.12),
-  0px 2px 10px 0px rgba(34, 36, 38, 0.15)
+  0 5px 10px rgba(0,0,0,0.5)
 ;
 
 /*******************************
@@ -468,18 +470,18 @@
 
 @circularRadius                : 500rem;
 
-@borderColor               : rgba(24, 26, 28, 0.45);
+@borderColor               : transparent;
 @strongBorderColor         : rgba(24, 26, 28, 0.22);
 @internalBorderColor       : rgba(24, 26, 28, 0.1);
 @selectedBorderColor       : rgba(24, 26, 28, 0.35);
 @strongSelectedBorderColor : rgba(24, 26, 28, 0.5);
 @disabledBorderColor       : rgba(24, 26, 28, 0.5);
 
-@solidInternalBorderColor  : #333333;
-@solidBorderColor          : #1B1C1E;
-@solidSelectedBorderColor  : #222222;
+@solidInternalBorderColor  : @gray-light;
+@solidBorderColor          : @blue;
+@solidSelectedBorderColor  : @lightBlue;
 
-@whiteBorderColor              : rgba(0, 0, 0, 0.1);
+@gray-darkBorderColor              : rgba(0, 0, 0, 0.1);
 @selectedWhiteBorderColor      : rgba(0, 0, 0, 0.8);
 
 @solidWhiteBorderColor         : #34393D;
@@ -762,7 +764,7 @@
 @lightPinkHover           : saturate(darken(@lightPink, 5), 10, relative);
 @lightBrownHover          : saturate(darken(@lightBrown, 5), 10, relative);
 @lightGreyHover           : saturate(darken(@lightGrey, 5), 10, relative);
-@lightBlackHover          : saturate(darken(@fullBlack, 5), 10, relative);
+@lightBlackHover          : saturate(darken(@black, 5), 10, relative);
 
 /*---  Emotive  ---*/
 @positiveColorHover       : saturate(darken(@positiveColor, 5), 10, relative);
@@ -779,14 +781,14 @@
 @vkHoverColor             : saturate(darken(@vkColor, 5), 10, relative);
 
 /*---  Dark Tones  ---*/
-@fullBlackHover           : lighten(@fullBlack, 5);
+@blackHover           : lighten(@black, 5);
 @blackHover               : lighten(@black, 5);
 @greyHover                : lighten(@grey, 5);
 
 /*---  Light Tones  ---*/
-@whiteHover               : darken(@white, 5);
-@offWhiteHover            : darken(@offWhite, 5);
-@darkWhiteHover           : darken(@darkWhite, 5);
+@gray-darkHover               : darken(@gray-dark, 5);
+@gray-lighterHover            : darken(@gray-lighter, 5);
+@gray-lightHover           : darken(@gray-light, 5);
 
 /*-------------------
         Focus
@@ -822,7 +824,7 @@
 @lightPinkFocus           : saturate(darken(@lightPink, 8), 20, relative);
 @lightBrownFocus          : saturate(darken(@lightBrown, 8), 20, relative);
 @lightGreyFocus           : saturate(darken(@lightGrey, 8), 20, relative);
-@lightBlackFocus          : saturate(darken(@fullBlack, 8), 20, relative);
+@lightBlackFocus          : saturate(darken(@black, 8), 20, relative);
 
 /*---  Emotive  ---*/
 @positiveColorFocus       : saturate(darken(@positiveColor, 8), 20, relative);
@@ -839,14 +841,14 @@
 @vkFocusColor             : saturate(darken(@vkColor, 8), 20, relative);
 
 /*---  Dark Tones  ---*/
-@fullBlackFocus           : lighten(@fullBlack, 8);
+@blackFocus           : lighten(@black, 8);
 @blackFocus               : lighten(@black, 8);
 @greyFocus                : lighten(@grey, 8);
 
 /*---  Light Tones  ---*/
-@whiteFocus               : darken(@white, 8);
-@offWhiteFocus            : darken(@offWhite, 8);
-@darkWhiteFocus           : darken(@darkWhite, 8);
+@gray-darkFocus               : darken(@gray-dark, 8);
+@gray-lighterFocus            : darken(@gray-lighter, 8);
+@gray-lightFocus           : darken(@gray-light, 8);
 
 
 /*-------------------
@@ -883,7 +885,7 @@
 @lightPinkDown           : darken(@lightPink, 10);
 @lightBrownDown          : darken(@lightBrown, 10);
 @lightGreyDown           : darken(@lightGrey, 10);
-@lightBlackDown          : darken(@fullBlack, 10);
+@lightBlackDown          : darken(@black, 10);
 
 /*---  Emotive  ---*/
 @positiveColorDown       : darken(@positiveColor, 10);
@@ -900,14 +902,14 @@
 @vkDownColor             : darken(@vkColor, 10);
 
 /*---  Dark Tones  ---*/
-@fullBlackDown           : lighten(@fullBlack, 10);
+@blackDown           : lighten(@black, 10);
 @blackDown               : lighten(@black, 10);
 @greyDown                : lighten(@grey, 10);
 
 /*---  Light Tones  ---*/
-@whiteDown               : darken(@white, 10);
-@offWhiteDown            : darken(@offWhite, 10);
-@darkWhiteDown           : darken(@darkWhite, 10);
+@gray-darkDown               : darken(@gray-dark, 10);
+@gray-lighterDown            : darken(@gray-lighter, 10);
+@gray-lightDown           : darken(@gray-light, 10);
 
 
 /*-------------------
@@ -944,7 +946,7 @@
 @lightPinkActive           : saturate(darken(@lightPink, 5), 15, relative);
 @lightBrownActive          : saturate(darken(@lightBrown, 5), 15, relative);
 @lightGreyActive           : saturate(darken(@lightGrey, 5), 15, relative);
-@lightBlackActive          : saturate(darken(@fullBlack, 5), 15, relative);
+@lightBlackActive          : saturate(darken(@black, 5), 15, relative);
 
 /*---  Emotive  ---*/
 @positiveColorActive       : saturate(darken(@positiveColor, 5), 15, relative);
@@ -961,11 +963,11 @@
 @vkActiveColor             : saturate(darken(@vkColor, 5), 15, relative);
 
 /*---  Dark Tones  ---*/
-@fullBlackActive           : darken(@fullBlack, 5);
+@blackActive           : darken(@black, 5);
 @blackActive               : darken(@black, 5);
 @greyActive                : darken(@grey, 5);
 
 /*---  Light Tones  ---*/
-@whiteActive               : darken(@white, 5);
-@offWhiteActive            : darken(@offWhite, 5);
-@darkWhiteActive           : darken(@darkWhite, 5);
+@gray-darkActive               : darken(@gray-dark, 5);
+@gray-lighterActive            : darken(@gray-lighter, 5);
+@gray-lightActive           : darken(@gray-light, 5);

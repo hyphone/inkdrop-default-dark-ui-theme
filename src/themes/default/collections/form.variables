@@ -42,7 +42,7 @@
 @inputBoxShadow: 0em 0em 0em 0em transparent inset;
 
 /* Select */
-@selectBackground: @white;
+@selectBackground: @gray-dark;
 @selectBorderRadius: @inputBorderRadius;
 @selectBorder: @inputBorder;
 @selectPadding: 0.62em @inputHorizontalPadding;
@@ -68,7 +68,7 @@
 @checkboxLabelTextTransform: @labelTextTransform;
 
 /* Inline Validation Prompt */
-@promptBackground: @white;
+@promptBackground: @gray-dark;
 @promptBorderColor: @formErrorBorder;
 @promptBorder: 1px solid @promptBorderColor;
 @promptTextColor: @formErrorColor;
@@ -155,7 +155,7 @@
 
 /* Inverted */
 @invertedInputBackground: @inputBackground;
-@invertedInputBorderColor: @whiteBorderColor;
+@invertedInputBorderColor: @gray-darkBorderColor;
 @invertedInputBoxShadow: @inputBoxShadow;
 @invertedInputColor: @inputColor;
 @invertedLabelColor: @invertedTextColor;

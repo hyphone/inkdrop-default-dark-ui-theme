@@ -84,7 +84,7 @@
 --------------------*/
 
 /* Active */
-@activePulseColor: @white;
+@activePulseColor: @gray-dark;
 @activePulseMaxOpacity: 0.3;
 @activePulseDuration: 2s;
 @activeMinWidth: @barMinWidth;
@@ -103,8 +103,8 @@
 @invertedBackground: @transparentWhite;
 @invertedBorder: none;
 @invertedBarBackground: @barBackground;
-@invertedProgressColor: @offWhite;
-@invertedLabelColor: @white;
+@invertedProgressColor: @gray-lighter;
+@invertedLabelColor: @gray-dark;
 
 /* Sizing */
 @tinyBarHeight: 0.5em;

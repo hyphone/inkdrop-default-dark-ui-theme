@@ -17,7 +17,7 @@
 @zIndex: 1000;
 @textAlign: center;
 @verticalAlign: middle;
-@textColor: @white;
+@textColor: @gray-dark;
 @overflow: hidden;
 
 @blurredStartFilter: ~"blur(0px) grayscale(0)";

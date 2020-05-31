@@ -32,7 +32,7 @@
 @lineHeight: @relativeLarge;
 @alignItems: center;
 @justifyContent: center;
-@backgroundColor: @white;
+@backgroundColor: @gray-dark;
 @background: @backgroundColor;
 @borderRadius: 0em;
 @borderWidth: 1px;
@@ -108,15 +108,15 @@
 @completedColor: @positiveColor;
 
 /* Hover */
-@hoverBackground: @offWhite;
+@hoverBackground: @gray-lighter;
 @hoverColor: @hoveredTextColor;
 
 /* Down */
-@downBackground: @darkWhite;
+@downBackground: @gray-light;
 @downColor: @pressedTextColor;
 
 /* Active */
-@activeBackground: @darkWhite;
+@activeBackground: @gray-light;
 @activeColor: @linkColor;
 @activeIconColor: @darkTextColor;
 

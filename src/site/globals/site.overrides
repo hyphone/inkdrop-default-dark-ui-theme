@@ -226,11 +226,11 @@
   --light-black: @lightBlack;
 
   /*---   Neutrals  ---*/
-  --full-black: @fullBlack;
-  --off-white: @offWhite;
-  --dark-white: @darkWhite;
-  --mid-white: @midWhite;
-  --white: @white;
+  --full-black: @black;
+  --off-white: @gray-lighter;
+  --dark-white: @gray-light;
+  --mid-white: @gray-medium;
+  --white: @gray-dark;
 
   /*--- Colored Backgrounds ---*/
   --red-background: @redBackground;
@@ -455,7 +455,7 @@
   --solid-border-color: @solidBorderColor;
   --solid-selected-border-color: @solidSelectedBorderColor;
 
-  --white-border-color: @whiteBorderColor;
+  --white-border-color: @gray-darkBorderColor;
   --selected-white-border-color: @selectedWhiteBorderColor;
 
   --solid-white-border-color: @solidWhiteBorderColor;
@@ -755,14 +755,14 @@
   --vk-hover-color: @vkHoverColor;
 
   /*---  Dark Tones  ---*/
-  --full-black-hover: @fullBlackHover;
+  --full-black-hover: @blackHover;
   --black-hover: @blackHover;
   --grey-hover: @greyHover;
 
   /*---  Light Tones  ---*/
-  --white-hover: @whiteHover;
-  --off-white-hover: @offWhiteHover;
-  --dark-white-hover: @darkWhiteHover;
+  --white-hover: @gray-darkHover;
+  --off-white-hover: @gray-lighterHover;
+  --dark-white-hover: @gray-lightHover;
 
   /*-------------------
           Focus
@@ -813,14 +813,14 @@
   --vk-focus-color: @vkFocusColor;
 
   /*---  Dark Tones  ---*/
-  --full-black-focus: @fullBlackFocus;
+  --full-black-focus: @blackFocus;
   --black-focus: @blackFocus;
   --grey-focus: @greyFocus;
 
   /*---  Light Tones  ---*/
-  --white-focus: @whiteFocus;
-  --off-white-focus: @offWhiteFocus;
-  --dark-white-focus: @darkWhiteFocus;
+  --white-focus: @gray-darkFocus;
+  --off-white-focus: @gray-lighterFocus;
+  --dark-white-focus: @gray-lightFocus;
 
 
   /*-------------------
@@ -872,14 +872,14 @@
   --vk-down-color: @vkDownColor;
 
   /*---  Dark Tones  ---*/
-  --full-black-down: @fullBlackDown;
+  --full-black-down: @blackDown;
   --black-down: @blackDown;
   --grey-down: @greyDown;
 
   /*---  Light Tones  ---*/
-  --white-down: @whiteDown;
-  --off-white-down: @offWhiteDown;
-  --dark-white-down: @darkWhiteDown;
+  --white-down: @gray-darkDown;
+  --off-white-down: @gray-lighterDown;
+  --dark-white-down: @gray-lightDown;
 
 
   /*-------------------
@@ -931,14 +931,14 @@
   --vk-active-color: @vkActiveColor;
 
   /*---  Dark Tones  ---*/
-  --full-black-active: @fullBlackActive;
+  --full-black-active: @blackActive;
   --black-active: @blackActive;
   --grey-active: @greyActive;
 
   /*---  Light Tones  ---*/
-  --white-active: @whiteActive;
-  --off-white-active: @offWhiteActive;
-  --dark-white-active: darken(@darkWhite, 5);
+  --white-active: @gray-darkActive;
+  --off-white-active: @gray-lighterActive;
+  --dark-white-active: darken(@gray-light, 5);
 
   /*-------------------
         Side Bar

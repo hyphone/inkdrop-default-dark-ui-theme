@@ -505,4 +505,15 @@
   font-size: @relativeMassive;
 }
 
+/* inkdrop specific */
+.editor-title-input.ui.input input[type=text],
+.note-tags-bar-input .ui.input > input{
+  background-color: @gray-dark;
+}
+
+.editor-title-input.ui.input input[type=text]:focus,
+.note-tags-bar-input .ui.input > input:focus{
+  background-color: @gray-medium;
+}
+
 .loadUIOverrides();

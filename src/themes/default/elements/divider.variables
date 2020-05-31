@@ -9,7 +9,7 @@
 @margin: 1rem 0rem;
 
 @highlightWidth: 1px;
-@highlightColor: @whiteBorderColor;
+@highlightColor: @gray-darkBorderColor;
 
 @shadowWidth: 1px;
 @shadowColor: @borderColor;
@@ -42,7 +42,7 @@
 @verticalDividerHeight: ~"calc(100% - "(@verticalDividerMargin)~")";
 
 /* Inverted */
-@invertedTextColor: @white;
+@invertedTextColor: @gray-dark;
 @invertedHighlightColor: rgba(255, 255, 255, 0.15);
 @invertedShadowColor: @borderColor;
 

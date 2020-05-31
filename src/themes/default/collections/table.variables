@@ -16,7 +16,7 @@
   background @defaultDuration @defaultEasing,
   color @defaultDuration @defaultEasing
 ;
-@background: @white;
+@background: @gray-dark;
 @color: @textColor;
 @borderWidth: 1px;
 @border: @borderWidth solid @borderColor;
@@ -40,7 +40,7 @@
 /* Table Header */
 @headerBorder: 1px solid @internalBorderColor;
 @headerDivider: none;
-@headerBackground: @offWhite;
+@headerBackground: @gray-lighter;
 @headerAlign: inherit;
 @headerVerticalAlign: inherit;
 @headerColor: @textColor;
@@ -55,7 +55,7 @@
 @footerBoxShadow: none;
 @footerBorder: 1px solid @borderColor;
 @footerDivider: none;
-@footerBackground: @offWhite;
+@footerBackground: @gray-lighter;
 @footerAlign: inherit;
 @footerVerticalAlign: middle;
 @footerColor: @textColor;
@@ -80,7 +80,7 @@
 --------------------*/
 
 /* Definition */
-@definitionPageBackground: @white;
+@definitionPageBackground: @gray-dark;
 
 @definitionHeaderBackground: transparent;
 @definitionHeaderColor: @unselectedTextColor;
@@ -205,7 +205,7 @@
 /* Inverted */
 @invertedBackground: #333333;
 @invertedBorder: none;
-@invertedCellBorderColor: @whiteBorderColor;
+@invertedCellBorderColor: @gray-darkBorderColor;
 @invertedCellColor: @invertedTextColor;
 
 @invertedHeaderBackground: @veryStrongTransparentBlack;

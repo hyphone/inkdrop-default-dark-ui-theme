@@ -10,7 +10,7 @@
 @verticalMargin: @medium;
 @horizontalMargin: 0em;
 @margin: @verticalMargin @horizontalMargin;
-@background: @white;
+@background: @gray-dark;
 @fontFamily: @pageFont;
 @itemBackground: none;
 @fontWeight: @normal;
@@ -89,7 +89,7 @@
 
 @arrowVerticalHoverColor: @arrowHoverColor;
 @arrowVerticalActiveColor: @arrowActiveColor;
-@arrowVerticalSubMenuColor: @white;
+@arrowVerticalSubMenuColor: @gray-dark;
 
 /*--------------
     Couplings
@@ -115,7 +115,7 @@
 /* Label */
 @labelOffset: -0.15em;
 @labelBackground: #999999;
-@labelTextColor: @white;
+@labelTextColor: @gray-dark;
 
 @labelTextMargin: 1em;
 @labelVerticalPadding: 0.3em;
@@ -127,7 +127,7 @@
 /* Dropdown in Menu */
 @dropdownMenuBoxShadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
 
-@dropdownBackground: @white;
+@dropdownBackground: @gray-dark;
 @dropdownMenuDistance: 0em;
 @dropdownMenuBorderRadius: @borderRadius;
 
@@ -199,7 +199,7 @@
 /* Vertical */
 @verticalBoxShadow: @boxShadow;
 @verticalPointerWidth: 2px;
-@verticalBackground: fade(@white, 70%);
+@verticalBackground: fade(@gray-dark, 70%);
 @verticalItemBackground: none;
 @verticalDividerBackground: @dividerBackground;
 
@@ -273,11 +273,11 @@
 @secondaryInvertedActiveColor: @invertedSelectedTextColor;
 
 /* Inverted Pointing */
-@secondaryPointingInvertedBorderColor: @whiteBorderColor;
+@secondaryPointingInvertedBorderColor: @gray-darkBorderColor;
 @secondaryPointingInvertedItemTextColor: @invertedTextColor;
-@secondaryPointingInvertedItemHeaderColor: @white;
+@secondaryPointingInvertedItemHeaderColor: @gray-dark;
 @secondaryPointingInvertedItemHoverTextColor: @selectedTextColor;
-@secondaryPointingInvertedActiveBorderColor: @white;
+@secondaryPointingInvertedActiveBorderColor: @gray-dark;
 @secondaryPointingInvertedActiveColor: @invertedSelectedTextColor;
 
 
@@ -302,7 +302,7 @@
 /* Icon */
 @iconMenuTextAlign: center;
 @iconMenuItemColor: @black;
-@iconMenuInvertedItemColor: @white;
+@iconMenuInvertedItemColor: @gray-dark;
 
 
 /* Tabular */
@@ -323,7 +323,7 @@
 @tabularFluidOffset: 1px;
 @tabularFluidWidth: calc(100% + (@tabularFluidOffset * 2));
 
-@tabularActiveBackground: none @white;
+@tabularActiveBackground: none @gray-dark;
 @tabularActiveColor: @selectedTextColor;
 @tabularActiveBoxShadow: none;
 @tabularActiveWeight: @bold;
@@ -406,11 +406,11 @@
 
 /* Inverted Active Hover  */
 @invertedActiveHoverBackground: @invertedActiveBackground;
-@invertedActiveHoverColor: @white;
+@invertedActiveHoverColor: @gray-dark;
 @invertedArrowActiveHoverColor: @invertedArrowActiveColor;
 
 @invertedSubMenuActiveBackground: transparent;
-@invertedSubMenuActiveColor: @white;
+@invertedSubMenuActiveColor: @gray-dark;
 
 /* Inverted Menu Divider */
 @invertedDividerBackground: rgba(255, 255, 255, 0.08);

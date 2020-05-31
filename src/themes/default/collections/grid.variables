@@ -42,8 +42,8 @@
 @dividedBorder: -1px 0px 0px 0px @borderColor;
 @verticallyDividedBorder: 0px -1px 0px 0px @borderColor;
 
-@dividedInvertedBorder: -1px 0px 0px 0px @whiteBorderColor;
-@verticallyDividedInvertedBorder: 0px -1px 0px 0px @whiteBorderColor;
+@dividedInvertedBorder: -1px 0px 0px 0px @gray-darkBorderColor;
+@verticallyDividedInvertedBorder: 0px -1px 0px 0px @gray-darkBorderColor;
 
 /*--------------
     Celled
@@ -69,7 +69,7 @@
 @stackableRowSpacing: @rowSpacing;
 @stackableGutter: @gutterWidth;
 @stackableMobileBorder: 1px solid @borderColor;
-@stackableInvertedMobileBorder: 1px solid @whiteBorderColor;
+@stackableInvertedMobileBorder: 1px solid @gray-darkBorderColor;
 
 
 /*******************************

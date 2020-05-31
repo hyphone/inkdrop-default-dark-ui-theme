@@ -6,7 +6,7 @@
        Element
 --------------------*/
 
-@background: @white;
+@background: @gray-dark;
 @borderWidth: 1px;
 @border: @borderWidth solid @borderColor;
 
@@ -49,7 +49,7 @@
 *******************************/
 
 /* Placeholder */
-@placeholderBackground: @offWhite;
+@placeholderBackground: @gray-lighter;
 @placeholderPadding: @padding;
 @placeholderBorderColor: @borderColor;
 @placeholderBoxShadow: 0px 2px 25px 0 rgba(34, 36, 38, 0.05) inset;
@@ -127,10 +127,10 @@
 @coloredBorderSize: 2px;
 
 /* Ordinality */
-@secondaryBackground: @darkWhite;
+@secondaryBackground: @gray-light;
 @secondaryColor: @mutedTextColor;
 
-@tertiaryBackground:  @midWhite;
+@tertiaryBackground:  @gray-medium;
 @tertiaryColor: @mutedTextColor;
 
 @secondaryInvertedLightness: 0.2;

@@ -59,7 +59,7 @@
   text-align: @menuTextAlign;
 
   box-shadow: @menuBoxShadow;
-  border: @menuBorder;
+  border: 1px solid @blue;
   border-radius: @menuBorderRadius;
   transition: @menuTransition;
   z-index: @menuZIndex;
@@ -474,6 +474,7 @@ select.ui.dropdown {
 .ui.selection.dropdown:hover {
   border-color: @selectionHoverBorderColor;
   box-shadow: @selectionHoverBoxShadow;
+  background-color: @gray-light-hover;
 }
 
 /* Active */
@@ -732,6 +733,8 @@ select.ui.dropdown {
   cursor: auto;
   margin-top: @inlineMenuDistance;
   border-radius: @inlineMenuBorderRadius;
+  box-shadow: @floatingShadow;
+  border: 1px solid @blue;
 }
 
 
