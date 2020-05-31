@@ -77,10 +77,10 @@
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
-@taskIconOnHold: orange;
-@taskIconCompleted: limegreen;
-@taskIconDropped: lightcoral;
+@taskIconActive: @gray-lighter;
+@taskIconOnHold: @lightYellow;
+@taskIconCompleted: @lightGreen;
+@taskIconDropped: @orange;
 
 /*-------------------
   Task Progress View

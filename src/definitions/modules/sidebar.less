@@ -539,6 +539,9 @@ body.pushable > .pusher {
 .sidebar-menu{
   transition: .3s ease;
 }
+.sidebar-menu-item.selectable{
+  border-left: 2px solid transparent;
+}
 .sidebar-menu-item.selectable:hover{
   color: @white;
 }
@@ -546,6 +549,9 @@ body.pushable > .pusher {
   color: @white;
   border-left: 2px solid @white;
   background-color: transparent;
+}
+.sidebar-menu-item.selectable .icon{
+  opacity: 1;
 }
 
 .loadUIOverrides();
