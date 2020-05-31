@@ -1,8 +1,9 @@
 {
   "name": "inkdrop-theme-vscode-dark-ui",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "theme": "ui",
   "description": "VS Code inspired Dark UI Theme for Inkdrop",
+  "repository": "https://github.com/hyphone/inkdrop-theme-vscode-dark-ui",
   "styleSheets": [
     "theme.min.css"
   ],

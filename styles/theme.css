@@ -37157,8 +37157,14 @@ body.pushable > .pusher {
   transition: 0.3s ease;
 }
 
+.sidebar-menu-item.selectable:hover {
+  color: #FFFFFF;
+}
+
 .sidebar-menu-item.selectable.active {
-  color: #D7BA7D;
+  color: #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  background-color: transparent;
 }
 
 /*******************************

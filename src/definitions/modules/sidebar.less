@@ -539,8 +539,13 @@ body.pushable > .pusher {
 .sidebar-menu{
   transition: .3s ease;
 }
+.sidebar-menu-item.selectable:hover{
+  color: @white;
+}
 .sidebar-menu-item.selectable.active{
-  color: @lightOrange;
+  color: @white;
+  border-left: 2px solid @white;
+  background-color: transparent;
 }
 
 .loadUIOverrides();
