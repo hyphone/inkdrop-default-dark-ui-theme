@@ -7,8 +7,8 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: @pageBackgroundLight;
-@primaryColorFocus: @blue;
+@primaryColor: @blue;
+@primaryColorFocus: lighten(@blue, 15%);
 @linkHoverColor: @primaryColor;
 
 

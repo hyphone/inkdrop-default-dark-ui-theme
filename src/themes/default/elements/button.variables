@@ -317,24 +317,24 @@
 
 /* Ordinality */
 @primaryBackgroundImage: @coloredBackgroundImage;
-@primaryTextColor: @invertedTextColor;
-@lightPrimaryTextColor: @invertedTextColor;
+@primaryTextColor: @textColor;
+@lightPrimaryTextColor: @textColor;
 @primaryTextShadow: @invertedTextShadow;
 @primaryBoxShadow: @coloredBoxShadow;
 
 @secondaryBackgroundImage: @coloredBackgroundImage;
-@secondaryTextColor: @invertedTextColor;
+@secondaryTextColor: @textColor;
 @secondaryTextShadow: @invertedTextShadow;
-@lightSecondaryTextColor: @invertedTextColor;
+@lightSecondaryTextColor: @textColor;
 @secondaryBoxShadow: @coloredBoxShadow;
 
 @positiveBackgroundImage: @coloredBackgroundImage;
-@positiveTextColor: @invertedTextColor;
+@positiveTextColor: @textColor;
 @positiveTextShadow: @invertedTextShadow;
 @positiveBoxShadow: @coloredBoxShadow;
 
 @negativeBackgroundImage: @coloredBackgroundImage;
-@negativeTextColor: @invertedTextColor;
+@negativeTextColor: @textColor;
 @negativeTextShadow: @invertedTextShadow;
 @negativeBoxShadow: @coloredBoxShadow;
 

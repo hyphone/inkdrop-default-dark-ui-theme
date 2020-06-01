@@ -827,8 +827,11 @@
 }
 
 /* inkdrop specific */
-.plugin-list-item-view.clickable:hover{
+.note-list-item-view.active, .note-list-item-view.focused{
   background-color: @gray-light;
+}
+.plugin-list-item-view.clickable:hover{
+  background-color: @gray-light-hover;
 }
 
 .loadUIOverrides();
