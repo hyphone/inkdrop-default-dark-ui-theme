@@ -1545,7 +1545,7 @@ input::selection {
   --------------------*/
   --task-progress-view-background-color: rgba(0, 0, 0, 0.3);
   --task-progress-view-foreground-color: rgba(255, 255, 255, 0.6);
-  --task-progress-view-completed-color: #32cd32;
+  --task-progress-view-completed-color: #6A9955;
 }
 /*!
  * # Semantic UI 2.4.2 - Button
@@ -19593,6 +19593,11 @@ ol.ui.horizontal.list li:before,
   background-color: #444444;
 }
 
+body[class*="dark-ui"] .task-progress-view.completed .icon {
+  opacity: 0.6;
+  background-image: url(octicons-checklist-wh.png);
+}
+
 /*******************************
          Theme Overrides
 *******************************/
@@ -33725,7 +33730,7 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.modal > .actions {
-  background: #333333;
+  background: #1E1E1E;
   padding: 1rem 1rem;
   border-top: 1px solid transparent;
   text-align: right;
