@@ -227,7 +227,7 @@
 
   /*---   Neutrals  ---*/
   --full-black: @black;
-  --off-white: @gray-lighter;
+  --off-white: @sidebarBackground;
   --dark-white: @gray-light;
   --mid-white: @gray-medium;
   --white: @gray-dark;

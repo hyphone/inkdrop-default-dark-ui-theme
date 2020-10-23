@@ -21,9 +21,9 @@
     "semantic-ui": "^2.4.2"
   },
   "browserslist": [
-    "Electron 8"
+    "Electron 7.3.2"
   ],
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
   }
 }

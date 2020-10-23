@@ -867,7 +867,7 @@ input::selection {
   --light-black: #545454;
   /*---   Neutrals  ---*/
   --full-black: #000000;
-  --off-white: #969696;
+  --off-white: #333333;
   --dark-white: #333333;
   --mid-white: #252526;
   --white: #1E1E1E;
@@ -15124,6 +15124,15 @@ img.ui.bordered.image {
 .editor-title-input.ui.input input[type=text]:focus,
 .note-tags-bar-input .ui.input > input:focus {
   background-color: #252526;
+}
+
+.editor-header-title-input.ui.input .editor-header-top-spacer {
+  display: none;
+}
+
+.editor-header-more {
+  padding-top: 2px;
+  margin-left: 6px;
 }
 
 /*******************************
